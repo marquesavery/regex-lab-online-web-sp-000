@@ -2,7 +2,7 @@ def starts_with_a_vowel?(word)
   if word.match(/^[aeiouAEIOU]/)
     return true
   else
-    false
+    return false
   end
 
 end
@@ -20,7 +20,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   if text.scan(/^[A-Z][^?.!]*[?.!]$/)
     return true
   else
-    false
+    return false
   end
 end
 
